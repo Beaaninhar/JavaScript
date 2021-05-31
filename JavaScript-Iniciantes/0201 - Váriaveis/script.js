@@ -75,3 +75,9 @@ let jogoFavorito,
     cafeDaTarde,
     oQueFazerAmanha;
 
+
+    var $nome = 'Ana';
+    let _sobrenome = 'Beatriz';
+    const idade1 = 21;
+
+

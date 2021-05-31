@@ -46,10 +46,11 @@ let frase7 = "Olá eu tenho " + 20 + "anos"
 let minhaIdade = 21;
 
 // Declare duas variáveis, uma com seu nome
-let meuNome = 'Ana Beatriz';
 // e outra com seu sobrenome e some as mesmas
+let meuNome = 'Ana Beatriz';
 let meuSobrenome = "Ribeiro da Silva"
 let somaNomeSobrenome = `${meuNome} ${meuSobrenome}`
+// Ana Beatriz Ribeiro da Silva
 
 // Coloque a seguinte frase em uma variável: It's time
 let frase8 = "It's time"
@@ -57,3 +58,14 @@ let frase8 = "It's time"
 // Verifique o tipo da variável que contém o seu nome
 let tipoNome = typeof meuNome;
 console.log(tipoNome)
+
+
+let aulas = 12;
+let frase = 'Ana fez ' + aulas + ' aulas em um dia';
+
+let frase1 = 'Português é "super" fácil';
+let frase2 = "Português é 'super' fácil";
+let frase3 = "Português é \"super\" fácil";
+let frase4 = `Português é "super" fácil"`;
+let fraseInvalida = "Português é "super" fácil"; 
+var TemplateString = `Ana fez ${aulas} aulas em um dia`; 
